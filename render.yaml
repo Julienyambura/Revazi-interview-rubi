@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: tryon-app
+    env: ruby
+    buildCommand: bundle install && rails assets:precompile
+    startCommand: bundle exec rails server -e production -p $PORT
+    envVars:
+      - key: RAILS_ENV
+        value: production
+      - key: SECRET_KEY_BASE
+        sync: false
+      - key: REPLICATE_API_TOKEN
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+
