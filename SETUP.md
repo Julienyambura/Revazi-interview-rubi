@@ -3,22 +3,26 @@
 ## Local Development Setup
 
 1. **Install Dependencies**
+
    ```bash
    bundle install
    ```
 
 2. **Create Environment File**
+
    ```bash
    cp .env.example .env
    # Edit .env and add your API keys (optional)
    ```
 
 3. **Initialize Database**
+
    ```bash
    rails db:create db:migrate
    ```
 
 4. **Start Server**
+
    ```bash
    rails server
    ```
@@ -60,4 +64,3 @@ The app is ready to deploy! See `DEPLOYMENT.md` for detailed instructions.
 - The app works with mock images if no API keys are provided
 - For production, add API keys to enable real AI processing
 - See `README.md` for full documentation
-

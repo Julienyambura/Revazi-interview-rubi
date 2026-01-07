@@ -1,0 +1,16 @@
+current directory: /Users/macbookpro/Desktop/gomycode/Revazi-interview-rubi/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20251105-92749-2xr7e8.rb extconf.rb
+creating Makefile
+
+current directory: /Users/macbookpro/Desktop/gomycode/Revazi-interview-rubi/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/macbookpro/Desktop/gomycode/Revazi-interview-rubi/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+ld: warning: directory not found for option '-L/AppleInternal/Library/BuildRoots/46298ee5-4a1c-11ef-a181-1aec23608739/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.7.Internal.sdk/usr/local/lib'
+
+current directory: /Users/macbookpro/Desktop/gomycode/Revazi-interview-rubi/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20251105-92749-1tgenbd

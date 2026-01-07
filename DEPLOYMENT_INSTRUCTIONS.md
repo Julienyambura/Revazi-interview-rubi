@@ -7,17 +7,20 @@ The Virtual Try-On application is **fully built and ready for deployment**!
 ### What's Complete:
 
 1. ✅ **User Interface**
+
    - Clean upload form with two file inputs (model photo + clothing photo)
    - Image preview functionality
    - Loading indicators
    - Error handling and user feedback
 
 2. ✅ **Backend Processing**
+
    - Upload endpoint with validation
    - AI service integration (Replicate/OpenAI)
    - Mock fallback for demonstration
 
 3. ✅ **Image Generation**
+
    - Four AI-generated images:
      - Enhanced product photo
      - Model wearing clothing
@@ -25,6 +28,7 @@ The Virtual Try-On application is **fully built and ready for deployment**!
      - Model wearing back view
 
 4. ✅ **Display Results**
+
    - Beautiful grid layout showing all generated images
    - Responsive design
 
@@ -82,6 +86,7 @@ git push -u origin main
 ### Step 4: Get Your Live URL
 
 Once deployed, Render will provide you with a URL like:
+
 - `https://tryon-app.onrender.com`
 
 **Share this URL** as the deployment URL for the interview task.
@@ -89,6 +94,7 @@ Once deployed, Render will provide you with a URL like:
 ## 📝 Alternative Deployment Options
 
 See `DEPLOYMENT.md` for detailed instructions on:
+
 - Railway
 - Fly.io
 - Heroku
@@ -113,13 +119,15 @@ rails server
 
 ## ⚠️ Important Notes
 
-1. **API Keys**: 
+1. **API Keys**:
+
    - The app works without API keys (uses mock images)
    - For real AI processing, add `REPLICATE_API_TOKEN` or `OPENAI_API_KEY`
    - Get Replicate token: https://replicate.com/account/api-tokens
    - Get OpenAI key: https://platform.openai.com/api-keys
 
 2. **Secret Key Base**:
+
    - Generate with: `rails secret`
    - Required for production
    - Keep it secret!
@@ -147,7 +155,7 @@ rails server
 Once you complete the deployment steps above, you'll have a live URL to share.
 
 **Next Steps:**
+
 1. Follow Step 1-3 above
 2. Get your live URL from Render
 3. Share the URL: `https://your-app-name.onrender.com`
-
